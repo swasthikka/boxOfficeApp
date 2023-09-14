@@ -15,6 +15,7 @@ const Home = () => {
         ? searchForShows(filter.q)
         : searchForPeople(filter.q),
     enabled: !!filter,
+    refetchOnWindowFocus: false,
   });
 
   const onSearch = async ({ q, searchOption }) => {

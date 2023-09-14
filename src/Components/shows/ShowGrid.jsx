@@ -9,7 +9,7 @@ const ShowGrid = ({ shows }) => {
           id={data.show.id}
           name={data.show.name}
           image={
-            data.show.image ? data.show.image.medium : '/imagenotfounf.png'
+            data.show.image ? data.show.image.medium : '/imagenotfound.png'
           }
           summary={data.show.summary}
         />
