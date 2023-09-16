@@ -1,6 +1,6 @@
 {
   "short_name": "Box Office",
-  "name": "Box OfFice",
+  "name": "Box Office",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "appicon.png",
+      "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "appicon.png",
+      "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     },
