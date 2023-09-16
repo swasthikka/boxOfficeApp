@@ -1,6 +1,6 @@
 import ActorsCard from './ActorsCard';
 import { FlexGrid } from '../FlexGrid';
-
+import imagenotfound from '../../lib/imagenotfound.png';
 const ActorsGrid = ({ actors }) => {
   return (
     <FlexGrid>
@@ -8,9 +8,7 @@ const ActorsGrid = ({ actors }) => {
         <ActorsCard
           key={data.person.id}
           name={data.person.name}
-          image={
-            data.person.image ? data.person.image.medium : '/imagenotfounf.png'
-          }
+          image={data.person.image ? data.person.image.medium : imagenotfound}
           country={data.person.country ? data.person.country.name : null}
           birthday={data.person.birthday}
           deathday={data.person.deathday}
