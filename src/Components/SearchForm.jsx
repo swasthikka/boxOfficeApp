@@ -8,8 +8,6 @@ const SearchForm = ({ onSearch }) => {
   const [searchOption, setSearchOption] = useState('shows');
 
   useEffect(() => {
-    console.log('component mounts');
-
     return () => {};
   }, []);
 

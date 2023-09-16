@@ -23,7 +23,8 @@ const GlobalStyles = createGlobalStyle`
 const GlobalTheme = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
-      <GlobalStyles />.{children}
+      <GlobalStyles />
+      {children}
     </ThemeProvider>
   );
 };
